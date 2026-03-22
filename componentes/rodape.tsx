@@ -16,7 +16,7 @@ export function Rodape() {
     <footer id="contato" className="rodape">
       <div>
         <p className="eyebrow">Contato</p>
-        <h2>Vamos conversar — aberto a novas oportunidades e projetos.</h2>
+        <h3>Vamos conversar. Estou aberto a novas oportunidades e projetos.</h3>
       </div>
 
       <div className="rodape__contato">
