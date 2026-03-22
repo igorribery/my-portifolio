@@ -52,7 +52,7 @@ const iconesStack: Record<string, ReactNode> = {
   DynamoDB: <HiOutlineCircleStack aria-hidden />,
   'Secrets Manager': <HiOutlineKey aria-hidden />,
   Docker: <SiDocker aria-hidden />,
-  GIT: <SiGit aria-hidden />,
+  Git: <SiGit aria-hidden />,
   'OAuth 2.0': <HiOutlineKey aria-hidden />,
   JWT: <SiJsonwebtokens aria-hidden />,
 };

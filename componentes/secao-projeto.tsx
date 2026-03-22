@@ -6,7 +6,7 @@ export function SecaoProjeto() {
     <section id="projeto" className="secao bloco-cartao">
       <div className="secao__cabecalho">
         <p className="eyebrow">Projeto em destaque</p>
-        <h2>CriptoInvest - Aplicação full stack para mercado cripto</h2>
+        <h2>CriptoInvest - Aplicação full stack para o mercado cripto</h2>
       </div>
 
       <div className="grade-duas-colunas">
