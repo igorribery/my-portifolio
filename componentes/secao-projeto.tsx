@@ -1,5 +1,5 @@
 import { FaArrowUpRightFromSquare, FaGithub } from 'react-icons/fa6';
-import { destaquesProjeto } from '@/dados/portfolio';
+import { destaquesProjeto, destaquesTaskflow } from '@/dados/portfolio';
 
 export function SecaoProjeto() {
   return (
@@ -38,6 +38,39 @@ export function SecaoProjeto() {
         </a>
         <a
           href="https://github.com/igorribery/criptoinvest"
+          target="_blank"
+          rel="noreferrer"
+          className="botao botao--secundario botao--sm"
+        >
+          <span className="botao__icone" aria-hidden>
+            <FaGithub />
+          </span>
+          Ver repositório
+        </a>
+      </div>
+
+      <div className="secao__cabecalho" style={{ marginTop: '36px' }}>
+        <p className="eyebrow">Projeto recente</p>
+        <h2>TaskFlow - Plataforma de produtividade</h2>
+      </div>
+
+      <div className="grade-duas-colunas">
+        <p>
+          Projeto em evolução para gestão de tarefas e fluxo de trabalho, estruturado em monorepo
+          com frontend moderno e API robusta. A proposta do TaskFlow é fornecer base escalável
+          para organização de tarefas, produtividade pessoal e colaboração entre equipes.
+        </p>
+
+        <ul className="lista-checks">
+          {destaquesTaskflow.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="projeto__links">
+        <a
+          href="https://github.com/igorribery/taskflow"
           target="_blank"
           rel="noreferrer"
           className="botao botao--secundario botao--sm"

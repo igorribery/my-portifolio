@@ -35,6 +35,13 @@ export const destaquesProjeto = [
   'Arquitetura escalável com Amplify, CloudFront, Elastic Beanstalk e RDS PostgreSQL.',
 ];
 
+export const destaquesTaskflow = [
+  'Monorepo full stack com frontend em Next.js + React + TypeScript e backend em NestJS.',
+  'API RESTful com Prisma, PostgreSQL e Redis para cache e comunicação entre módulos.',
+  'Arquitetura orientada a escalabilidade, separando aplicações backend e frontend no mesmo repositório.',
+  'Base preparada para evolução de tarefas, fluxos e produtividade em equipes.',
+];
+
 export const stackPorCategorias = [
   {
     titulo: 'Frontend',

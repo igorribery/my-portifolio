@@ -23,7 +23,7 @@ export function SecaoHero() {
             <span className="botao__icone" aria-hidden>
               <FaArrowRightLong />
             </span>
-            Ver projeto CriptoInvest
+            Ver projetos
           </a>
           <a className="botao botao--secundario" href="#contato">
             <span className="botao__icone" aria-hidden>
