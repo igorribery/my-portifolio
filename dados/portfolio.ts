@@ -36,6 +36,7 @@ export const destaquesProjeto = [
 ];
 
 export const destaquesTaskflow = [
+  'Chatbot de IA local integrado ao sistema, utilizando Ollama, capaz de responder dúvidas sobre o projeto e auxiliar no fluxo de uso da aplicação. Implementa RAG (Retrieval-Augmented Generation) para enriquecer respostas com base no próprio código-fonte e documentação do sistema.',
   'Monorepo full stack com frontend em Next.js + React + TypeScript e backend em NestJS.',
   'API RESTful com Prisma, PostgreSQL e Redis para cache e comunicação entre módulos.',
   'Arquitetura orientada a escalabilidade, separando aplicações backend e frontend no mesmo repositório.',
