@@ -58,7 +58,7 @@ export function SecaoProjeto() {
         <p>
           Projeto em evolução para gestão de tarefas e fluxo de trabalho, estruturado em monorepo
           com frontend moderno e API robusta. A proposta do TaskFlow é fornecer base escalável
-          para organização de tarefas, produtividade pessoal e colaboração entre equipes.
+          para organização de tarefas, produtividade pessoal e colaboração entre equipes. Chatbot IA local com Ollama integrado ao sistema.
         </p>
 
         <ul className="lista-checks">
