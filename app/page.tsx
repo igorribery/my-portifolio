@@ -1,19 +1,354 @@
-import { Cabecalho } from '@/componentes/cabecalho';
-import { Rodape } from '@/componentes/rodape';
-import { SecaoExperiencia } from '@/componentes/secao-experiencia';
-import { SecaoHero } from '@/componentes/secao-hero';
-import { SecaoProjeto } from '@/componentes/secao-projeto';
-import { SecaoStack } from '@/componentes/secao-stack';
+import { PortfolioMotion } from '@/componentes/portfolio-motion';
 
+/** Portfolio Dark Premium — implementation of the approved visual prototype. */
 export default function Home() {
   return (
-    <main className="pagina">
-      <Cabecalho />
-      <SecaoHero />
-      <SecaoExperiencia />
-      <SecaoProjeto />
-      <SecaoStack />
-      <Rodape />
-    </main>
+    <>
+      <a href="#projetos" className="skip-link">Ir para os projetos</a>
+
+<div className="topline">
+</div>
+<div className="wrap">
+<header className="navbar">
+<a href="#inicio" className="brand">
+<span className="brand-logo">IR<span className="brand-dot">.</span>
+</span>
+<span>igor<span className="brand-dot">.</span>ribeiro</span>
+</a>
+<nav className="navlinks">
+<a href="#projetos">Projetos</a>
+<a href="#experiencia">Experiência</a>
+<a href="#stack">Stack</a>
+<a href="#contato">Contato</a>
+</nav>
+<a className="top-contact" href="mailto:igorrds1998@gmail.com">Vamos conversar ↗</a>
+</header>
+<section className="hero" id="inicio">
+<div className="gridbg">
+</div>
+<div className="hero-copy reveal visible">
+<div className="eyebrow">
+<span className="dot">
+</span> FULL STACK DEVELOPER <span className="line">
+</span> BRASIL</div>
+<h1>
+<span>Código que</span>
+<span>vira <span className="gradient" style={{ display: 'inline' }}>produto.</span>
+</span>
+</h1>
+<p className="hero-sub">Olá, eu sou <strong>Igor Ribeiro.</strong> Desenvolvedor Full Stack com foco em <strong>backend, arquitetura e cloud</strong>. Construo aplicações robustas, experiências fluidas e soluções preparadas para crescer.</p>
+<div className="hero-cta">
+<a className="btn btn-primary" href="#projetos">Explorar projetos <span>↗</span>
+</a>
+<a target="_blank" rel="noopener noreferrer" className="btn btn-plain" href="https://github.com/igorribery">GitHub <span>↗</span>
+</a>
+</div>
+<div className="mini-stats">
+<div className="stat">
+<span className="num">3+ anos</span>
+<span className="label">Experiência</span>
+</div>
+<div className="sep">
+</div>
+<div className="stat">
+<span className="num">Node · Go</span>
+<span className="label">Backend</span>
+</div>
+<div className="sep">
+</div>
+<div className="stat">
+<span className="num">AWS</span>
+<span className="label">Cloud & Infra</span>
+</div>
+</div>
+</div>
+<div className="visual-wrap reveal visible">
+<div className="halo">
+</div>
+<div className="halo two">
+</div>
+<div className="orbit-chip top">✳ &nbsp; BACKEND / <span className="green">CLOUD</span>
+</div>
+<div className="codebox">
+<div className="code-head">
+<div className="dots">
+<i>
+</i>
+<i>
+</i>
+<i>
+</i>
+</div>
+<small>developer.ts</small>
+<small>⌘</small>
+</div>
+<div className="code-pad">
+<div>
+<span className="c-slate">01</span>&nbsp; <span className="c-purp">const</span> <span className="c-blue">developer</span> <span className="c-white">= {"{"}</span>
+</div>
+<div>
+<span className="c-slate">02</span>&nbsp;&nbsp;&nbsp; <span className="c-white">name:</span> <span className="c-green">'Igor Ribeiro'</span>
+<span className="c-white">,</span>
+</div>
+<div>
+<span className="c-slate">03</span>&nbsp;&nbsp;&nbsp; <span className="c-white">role:</span> <span className="c-green">'Full Stack'</span>
+<span className="c-white">,</span>
+</div>
+<div>
+<span className="c-slate">04</span>&nbsp;&nbsp;&nbsp; <span className="c-white">focus:</span> <span className="c-white">[</span>
+<span className="c-green">'Backend'</span>
+<span className="c-white">,</span>
+</div>
+<div>
+<span className="c-slate">05</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span className="c-green">'Architecture'</span>
+<span className="c-white">,</span> <span className="c-green">'Cloud'</span>
+<span className="c-white">],</span>
+</div>
+<div>
+<span className="c-slate">06</span>&nbsp;&nbsp;&nbsp; <span className="c-white">stack:</span> <span className="c-white">[</span>
+<span className="c-green">'Node.js'</span>
+<span className="c-white">,</span> <span className="c-green">'Go'</span>
+<span className="c-white">],</span>
+</div>
+<div>
+<span className="c-slate">07</span>&nbsp;&nbsp;&nbsp; <span className="c-blue">build</span>
+<span className="c-white">:</span> <span className="c-yellow">'with purpose'</span>
+</div>
+<div>
+<span className="c-slate">08</span>&nbsp; <span className="c-white">{"}"};</span>
+</div>
+</div>
+<div className="code-bottom">
+<span>
+</span> Building reliable systems, one commit at a time</div>
+</div>
+<div className="orbit-chip bottom">↗ &nbsp; THINK. BUILD. <span className="green">SHIP.</span>
+</div>
+</div>
+<div className="hero-vertical">DESIGN × ENGINEERING / 2026</div>
+</section>
+</div>
+<div className="divider">
+</div>
+<main>
+<section className="section wrap" id="projetos">
+<div className="section-top reveal">
+<div>
+<div className="sect-num">02 / TRABALHOS SELECIONADOS</div>
+<h2>Projetos que vão<br />além da interface<span style={{ color: 'var(--blue)' }}>.</span>
+</h2>
+</div>
+<p className="aside">Do produto à infraestrutura. Alguns projetos que representam meu jeito de pensar e construir software.</p>
+</div>
+<div className="project-grid">
+<article className="project-card reveal">
+<div className="project-art">
+<div className="project-tag">FEATURED / FULL STACK</div>
+<div className="dashboard">
+<div className="dash-top">◈ &nbsp; CRYPTO INVEST <small>MARKET OVERVIEW</small>
+</div>
+<div className="dash-mid">
+<strong>Market insights</strong>
+<span>↗ Live data integration</span>
+</div>
+<div className="dash-bars">
+<i style={{ height: '48%' }}>
+</i>
+<i style={{ height: '62%' }}>
+</i>
+<i style={{ height: '55%' }}>
+</i>
+<i style={{ height: '77%' }}>
+</i>
+<i style={{ height: '68%' }}>
+</i>
+<i style={{ height: '86%' }}>
+</i>
+<i style={{ height: '72%' }}>
+</i>
+<i style={{ height: '83%' }}>
+</i>
+<i style={{ height: '91%' }}>
+</i>
+<i style={{ height: '74%' }}>
+</i>
+<i style={{ height: '97%' }}>
+</i>
+<i style={{ height: '88%' }}>
+</i>
+</div>
+<div className="dash-footer">
+<span>PORTFOLIO</span>
+<span>ALERTS</span>
+<span>INTEGRATIONS</span>
+</div>
+</div>
+</div>
+<div className="project-detail">
+<div className="proj-meta">
+<span>01 / CRIPTOINVEST</span>
+<span>WEB PLATFORM</span>
+</div>
+<h3>CriptoInvest</h3>
+<p>Plataforma full stack de acompanhamento do mercado cripto, gestão de carteira e alertas de preço com infraestrutura AWS.</p>
+<div className="chips">
+<span>Next.js</span>
+<span>Node.js</span>
+<span>PostgreSQL</span>
+<span>AWS</span>
+</div>
+<a target="_blank" rel="noopener noreferrer" className="proj-link" href="https://github.com/igorribery/criptoinvest">Explorar projeto <span>↗</span>
+</a>
+</div>
+</article>
+<article className="project-card reveal">
+<div className="project-art task">
+<div className="project-tag">FEATURED / AI INTEGRATION</div>
+<div className="kanban">
+<div className="kanban-col">
+<h4>To do &nbsp; 03</h4>
+<div className="ticket">
+<strong>
+</strong>
+<b>
+</b>
+</div>
+<div className="ticket">
+<strong>
+</strong>
+<b>
+</b>
+</div>
+<div className="ticket">
+<strong>
+</strong>
+<b>
+</b>
+</div>
+</div>
+<div className="kanban-col">
+<h4>In progress &nbsp; 02</h4>
+<div className="ticket">
+<strong>
+</strong>
+<b>
+</b>
+</div>
+<div className="ticket">
+<strong>
+</strong>
+<b>
+</b>
+</div>
+</div>
+<div className="kanban-col">
+<h4>Done &nbsp; 04</h4>
+<div className="ticket">
+<strong>
+</strong>
+<b>
+</b>
+</div>
+<div className="ticket">
+<strong>
+</strong>
+<b>
+</b>
+</div>
+</div>
+</div>
+<div className="task-float">✦ &nbsp; Ollama + RAG</div>
+</div>
+<div className="project-detail">
+<div className="proj-meta">
+<span>02 / TASKFLOW</span>
+<span>PRODUCTIVITY</span>
+</div>
+<h3>TaskFlow</h3>
+<p>Gestão colaborativa com Kanban, histórico de tarefas, autenticação e assistente com IA local integrado ao fluxo de trabalho.</p>
+<div className="chips">
+<span>Next.js</span>
+<span>NestJS</span>
+<span>Redis</span>
+<span>Ollama / RAG</span>
+</div>
+<a target="_blank" rel="noopener noreferrer" className="proj-link" href="https://github.com/igorribery/taskflow">Explorar projeto <span>↗</span>
+</a>
+</div>
+</article>
+</div>
+</section>
+<div className="stackband" id="stack">
+<div className="stackband-inner">
+<span>TYPESCRIPT <b>✳</b>
+</span>
+<span>NODE.JS <b>✳</b>
+</span>
+<span>GO <b>✳</b>
+</span>
+<span>POSTGRESQL <b>✳</b>
+</span>
+<span>REDIS <b>✳</b>
+</span>
+<span>AWS <b>✳</b>
+</span>
+<span>REACT <b>✳</b>
+</span>
+<span>DOCKER <b>✳</b>
+</span>
+<span>TYPESCRIPT <b>✳</b>
+</span>
+<span>NODE.JS <b>✳</b>
+</span>
+<span>GO <b>✳</b>
+</span>
+<span>POSTGRESQL <b>✳</b>
+</span>
+<span>REDIS <b>✳</b>
+</span>
+<span>AWS <b>✳</b>
+</span>
+<span>REACT <b>✳</b>
+</span>
+<span>DOCKER <b>✳</b>
+</span>
+</div>
+</div>
+<section className="section wrap" id="experiencia">
+<div className="sect-num">03 / JORNADA PROFISSIONAL</div>
+<div className="exp-grid">
+<div className="exp-left reveal">
+<h2>Experiência<br />que constrói<span style={{ color: 'var(--blue)' }}>.</span>
+</h2>
+<p>Experiência desenvolvendo produtos web completos, APIs e integrações entre serviços. Foco em consistência técnica, colaboração e entregas de ponta a ponta.</p>
+</div>
+<div className="exp-role reveal">
+<small>MAR 2023 — MAR 2026 · REMOTO</small>
+<h3>Desenvolvedor Full Stack <span style={{ color: '#8292a8', fontWeight: '400' }}>@ Numih</span>
+</h3>
+<p>Atuação com React, Next.js, TypeScript, Go, Node.js, Kotlin, GraphQL, Redis e serviços AWS. Desenvolvimento de funcionalidades e evolução de arquitetura, da interface ao deploy.</p>
+<div className="chips">
+<span>Backend</span>
+<span>Frontend</span>
+<span>Integrações</span>
+<span>Cloud</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer className="footer" id="contato">
+<div className="sect-num">04 / VAMOS CONVERSAR</div>
+<h2>Tem uma ideia?<br />
+<em>Vamos construir.</em>
+</h2>
+<p>Aberto a conversar sobre engenharia de software, produtos e oportunidades.</p>
+<a className="btn btn-primary" href="mailto:igorrds1998@gmail.com">Entrar em contato ↗</a>
+<small>© 2026 Igor Ribeiro &nbsp; · &nbsp; <a target="_blank" rel="noopener noreferrer" href="https://github.com/igorribery">GitHub</a> &nbsp; · &nbsp; <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/igorrds113/">LinkedIn</a>
+</small>
+</footer>
+
+      <PortfolioMotion />
+    </>
   );
 }

@@ -1,20 +1,24 @@
-# Meu portifólio
+# Portfólio — Igor Ribeiro
 
-Base inicial de um portfólio em **Next.js** com layout de página única, conteúdo em **português-BR** e estrutura pronta para destacar o projeto **CriptoInvest** e futuros cases.
+Site pessoal de Igor Ribeiro, desenvolvido com **Next.js 15**, **React 19** e **TypeScript**.
 
-## Arquitetura inicial
+## Dark Premium
 
-- `app/`: rotas, página principal e estilos globais.
-- `componentes/`: blocos reutilizáveis da interface.
-- `dados/`: conteúdo estruturado para navegação, stack, métricas e contatos.
-- `publicos/`: pasta reservada para imagens, ícones e assets futuros.
-- `estilos/`: pasta reservada para escalabilidade, caso você queira separar estilos por domínio futuramente.
+Redesign baseado no protótipo visual aprovado: hero editorial, painel de código animado, vitrines ilustrativas de projetos, timeline profissional, tecnologia em movimento e contato.
 
-## Como rodar
+- O conteúdo permanece em português e destaca experiências e projetos verificáveis.
+- Animações leves em CSS, revelações via `IntersectionObserver` e interação de ponteiro com `requestAnimationFrame`; sem dependência extra de motion.
+- Suporte a `prefers-reduced-motion`, navegação por teclado, link de salto e layout responsivo.
+- A seção de projetos descreve **CriptoInvest** e **TaskFlow**, com links para seus repositórios públicos. Mockups são ilustrativos (não dados em tempo real).
+- Metadados para SEO e compartilhamento social.
+
+## Desenvolvimento
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
-Depois acesse `http://localhost:3000`.
+Acesse `http://localhost:3000`. Para validar a compilação, execute `npm run build`.
+
+A aplicação usa Vercel Analytics e Speed Insights já presentes no projeto original. Não inclui alterações de configuração de deploy.
