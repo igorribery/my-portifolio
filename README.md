@@ -9,7 +9,9 @@ Redesign baseado no protótipo visual aprovado: hero editorial, painel de códig
 - O conteúdo permanece em português e destaca experiências e projetos verificáveis.
 - Animações leves em CSS, revelações via `IntersectionObserver` e interação de ponteiro com `requestAnimationFrame`; sem dependência extra de motion.
 - Suporte a `prefers-reduced-motion`, navegação por teclado, link de salto e layout responsivo.
-- A seção de projetos descreve **CriptoInvest** e **TaskFlow**, com links para seus repositórios públicos. Mockups são ilustrativos (não dados em tempo real).
+- O **Garimpex** aparece como SaaS autoral **em desenvolvimento**, em destaque, com três capturas reais da sua landing page pública (os exemplos de ofertas nas capturas são ilustrativos). O repositório permanece privado e não é referenciado.
+- As imagens do Garimpex são arquivos WebP otimizados e versionados em `public/images/`.
+- **CriptoInvest** e **TaskFlow** permanecem abaixo, com links para os repositórios públicos e mockups ilustrativos.
 - Metadados para SEO e compartilhamento social.
 
 ## Desenvolvimento

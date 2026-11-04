@@ -1,4 +1,5 @@
 import { PortfolioMotion } from '@/componentes/portfolio-motion';
+import { GarimpexFeature } from '@/componentes/garimpex-feature';
 
 /** Portfolio Dark Premium — implementation of the approved visual prototype. */
 export default function Home() {
@@ -140,6 +141,7 @@ export default function Home() {
 </div>
 <p className="aside">Do produto à infraestrutura. Alguns projetos que representam meu jeito de pensar e construir software.</p>
 </div>
+<GarimpexFeature />
 <div className="project-grid">
 <article className="project-card reveal">
 <div className="project-art">
