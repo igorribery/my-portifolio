@@ -6,7 +6,7 @@ Site pessoal de Igor Ribeiro, desenvolvido com **Next.js 15**, **React 19** e **
 
 Redesign baseado no protótipo visual aprovado: hero editorial, painel de código animado, vitrines ilustrativas de projetos, timeline profissional, tecnologia em movimento e contato.
 
-- O conteúdo permanece em português e destaca experiências e projetos verificáveis.
+- O conteúdo permanece em português e apresenta Igor como desenvolvedor Full Stack, destacando frontend, backend e projetos verificáveis, sem posicionamento de especialização em cloud ou arquitetura.
 - Animações leves em CSS, revelações via `IntersectionObserver` e interação de ponteiro com `requestAnimationFrame`; sem dependência extra de motion.
 - Suporte a `prefers-reduced-motion`, navegação por teclado, link de salto e layout responsivo.
 - O **Garimpex** aparece como SaaS autoral **em desenvolvimento**, em destaque, com três capturas reais da sua landing page pública (os exemplos de ofertas nas capturas são ilustrativos). O repositório permanece privado e não é referenciado.

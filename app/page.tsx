@@ -37,7 +37,7 @@ export default function Home() {
 <span>vira <span className="gradient" style={{ display: 'inline' }}>produto.</span>
 </span>
 </h1>
-<p className="hero-sub">Olá, eu sou <strong>Igor Ribeiro.</strong> Desenvolvedor Full Stack com foco em <strong>backend, arquitetura e cloud</strong>. Construo aplicações robustas, experiências fluidas e soluções preparadas para crescer.</p>
+<p className="hero-sub">Olá, eu sou <strong>Igor Ribeiro.</strong> Desenvolvedor Full Stack com experiência em <strong>frontend e backend</strong>. Gosto de transformar ideias em aplicações web completas, criando interfaces intuitivas e funcionalidades que resolvem problemas reais.</p>
 <div className="hero-cta">
 <a className="btn btn-primary" href="#projetos">Explorar projetos <span>↗</span>
 </a>
@@ -58,8 +58,8 @@ export default function Home() {
 <div className="sep">
 </div>
 <div className="stat">
-<span className="num">AWS</span>
-<span className="label">Cloud & Infra</span>
+<span className="num">React · Next.js</span>
+<span className="label">Frontend</span>
 </div>
 </div>
 </div>
@@ -68,7 +68,7 @@ export default function Home() {
 </div>
 <div className="halo two">
 </div>
-<div className="orbit-chip top">✳ &nbsp; BACKEND / <span className="green">CLOUD</span>
+<div className="orbit-chip top">✳ &nbsp; FRONTEND / <span className="green">BACKEND</span>
 </div>
 <div className="codebox">
 <div className="code-head">
@@ -96,19 +96,19 @@ export default function Home() {
 <span className="c-white">,</span>
 </div>
 <div>
-<span className="c-slate">04</span>&nbsp;&nbsp;&nbsp; <span className="c-white">focus:</span> <span className="c-white">[</span>
-<span className="c-green">&apos;Backend&apos;</span>
+<span className="c-slate">04</span>&nbsp;&nbsp;&nbsp; <span className="c-white">areas:</span> <span className="c-white">[</span>
+<span className="c-green">&apos;Frontend&apos;</span>
 <span className="c-white">,</span>
 </div>
 <div>
-<span className="c-slate">05</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span className="c-green">&apos;Architecture&apos;</span>
-<span className="c-white">,</span> <span className="c-green">&apos;Cloud&apos;</span>
+<span className="c-slate">05</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span className="c-green">&apos;Backend&apos;</span>
+<span className="c-white">,</span> <span className="c-green">&apos;Web Apps&apos;</span>
 <span className="c-white">],</span>
 </div>
 <div>
 <span className="c-slate">06</span>&nbsp;&nbsp;&nbsp; <span className="c-white">stack:</span> <span className="c-white">[</span>
-<span className="c-green">&apos;Node.js&apos;</span>
-<span className="c-white">,</span> <span className="c-green">&apos;Go&apos;</span>
+<span className="c-green">&apos;React&apos;</span>
+<span className="c-white">,</span> <span className="c-green">&apos;Node.js&apos;</span>
 <span className="c-white">],</span>
 </div>
 <div>
@@ -121,7 +121,7 @@ export default function Home() {
 </div>
 <div className="code-bottom">
 <span>
-</span> Building reliable systems, one commit at a time</div>
+</span> Building web applications, one commit at a time</div>
 </div>
 <div className="orbit-chip bottom">↗ &nbsp; THINK. BUILD. <span className="green">SHIP.</span>
 </div>
@@ -139,7 +139,7 @@ export default function Home() {
 <h2>Projetos que vão<br />além da interface<span style={{ color: 'var(--blue)' }}>.</span>
 </h2>
 </div>
-<p className="aside">Do produto à infraestrutura. Alguns projetos que representam meu jeito de pensar e construir software.</p>
+<p className="aside">Da interface às APIs. Projetos que mostram minha experiência desenvolvendo aplicações web de ponta a ponta.</p>
 </div>
 <GarimpexFeature />
 <div className="project-grid">
@@ -292,7 +292,7 @@ export default function Home() {
 </span>
 <span>REDIS <b>✳</b>
 </span>
-<span>AWS <b>✳</b>
+<span>NEXT.JS <b>✳</b>
 </span>
 <span>REACT <b>✳</b>
 </span>
@@ -308,7 +308,7 @@ export default function Home() {
 </span>
 <span>REDIS <b>✳</b>
 </span>
-<span>AWS <b>✳</b>
+<span>NEXT.JS <b>✳</b>
 </span>
 <span>REACT <b>✳</b>
 </span>
@@ -322,18 +322,18 @@ export default function Home() {
 <div className="exp-left reveal">
 <h2>Experiência<br />que constrói<span style={{ color: 'var(--blue)' }}>.</span>
 </h2>
-<p>Experiência desenvolvendo produtos web completos, APIs e integrações entre serviços. Foco em consistência técnica, colaboração e entregas de ponta a ponta.</p>
+<p>Experiência criando interfaces, APIs e integrações para aplicações web. Gosto de participar de todas as etapas do desenvolvimento, da ideia à entrega.</p>
 </div>
 <div className="exp-role reveal">
 <small>MAR 2023 — MAR 2026 · REMOTO</small>
 <h3>Desenvolvedor Full Stack <span style={{ color: '#8292a8', fontWeight: '400' }}>@ Numih</span>
 </h3>
-<p>Atuação com React, Next.js, TypeScript, Go, Node.js, Kotlin, GraphQL, Redis e serviços AWS. Desenvolvimento de funcionalidades e evolução de arquitetura, da interface ao deploy.</p>
+<p>Atuação com React, Next.js, TypeScript, Go, Node.js, Kotlin, GraphQL, Redis e serviços AWS. Desenvolvimento de interfaces, APIs, integrações e funcionalidades de ponta a ponta.</p>
 <div className="chips">
 <span>Backend</span>
 <span>Frontend</span>
 <span>Integrações</span>
-<span>Cloud</span>
+<span>APIs</span>
 </div>
 </div>
 </div>
@@ -344,7 +344,7 @@ export default function Home() {
 <h2>Tem uma ideia?<br />
 <em>Vamos construir.</em>
 </h2>
-<p>Aberto a conversar sobre engenharia de software, produtos e oportunidades.</p>
+<p>Aberto a oportunidades e conversas sobre desenvolvimento web e novos projetos.</p>
 <a className="btn btn-primary" href="mailto:igorrds1998@gmail.com">Entrar em contato ↗</a>
 <small>© 2026 Igor Ribeiro &nbsp; · &nbsp; <a target="_blank" rel="noopener noreferrer" href="https://github.com/igorribery">GitHub</a> &nbsp; · &nbsp; <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/igorrds113/">LinkedIn</a>
 </small>
