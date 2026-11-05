@@ -8,6 +8,20 @@ export const navegacao = [
 
 export const experienciasProfissionais = [
   {
+    empresa: 'Autônomo',
+    cargo: 'Desenvolvedor Full Stack',
+    periodo: 'Atualmente',
+    local: 'Projetos próprios e freelance',
+    descricao:
+      'Atuação autônoma desenvolvendo aplicações web, plataformas SaaS e aplicativos com React Native, além de trabalhos freelance.',
+    responsabilidades: [
+      'Desenvolvimento de produtos SaaS próprios, com foco em funcionalidades que resolvem problemas reais.',
+      'Criação de aplicações web e aplicativos com React Native.',
+      'Implementação de interfaces, APIs e integrações em projetos próprios e freelance.',
+    ],
+    stacks: ['React', 'React Native', 'Next.js', 'TypeScript', 'Node.js', 'PostgreSQL'],
+  },
+  {
     empresa: 'Numih',
     cargo: 'Desenvolvedor Full Stack',
     periodo: '03/2023 - 03/2026',

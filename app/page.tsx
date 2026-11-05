@@ -324,6 +324,18 @@ export default function Home() {
 </h2>
 <p>Experiência criando interfaces, APIs e integrações para aplicações web. Gosto de participar de todas as etapas do desenvolvimento, da ideia à entrega.</p>
 </div>
+<div className="exp-history">
+<div className="exp-role exp-role--current reveal">
+<small>ATUALMENTE · AUTÔNOMO</small>
+<h3>Desenvolvedor Full Stack <span style={{ color: '#8292a8', fontWeight: '400' }}>· Freelance e projetos próprios</span></h3>
+<p>Atuação independente com trabalhos freelance e desenvolvimento de produtos próprios, incluindo plataformas SaaS, aplicações web e aplicativos com React Native. Desenvolvimento de interfaces, APIs e integrações, da implementação à evolução das funcionalidades.</p>
+<div className="chips">
+<span>Full Stack</span>
+<span>Freelance</span>
+<span>SaaS</span>
+<span>React Native</span>
+</div>
+</div>
 <div className="exp-role reveal">
 <small>MAR 2023 — MAR 2026 · REMOTO</small>
 <h3>Desenvolvedor Full Stack <span style={{ color: '#8292a8', fontWeight: '400' }}>@ Numih</span>
@@ -337,15 +349,16 @@ export default function Home() {
 </div>
 </div>
 </div>
+</div>
 </section>
 </main>
 <footer className="footer" id="contato">
 <div className="sect-num">04 / VAMOS CONVERSAR</div>
-<h2>Tem uma ideia?<br />
-<em>Vamos construir.</em>
+<h2>Vamos trabalhar<br />
+<em>juntos?</em>
 </h2>
-<p>Aberto a oportunidades e conversas sobre desenvolvimento web e novos projetos.</p>
-<a className="btn btn-primary" href="mailto:igorrds1998@gmail.com">Entrar em contato ↗</a>
+<p>Aberto a oportunidades como Desenvolvedor Full Stack em empresas, em regime CLT ou PJ, além de projetos freelance e parcerias.</p>
+<a className="btn btn-primary" href="mailto:igorrds1998@gmail.com">Conversar sobre oportunidades ↗</a>
 <small>© 2026 Igor Ribeiro &nbsp; · &nbsp; <a target="_blank" rel="noopener noreferrer" href="https://github.com/igorribery">GitHub</a> &nbsp; · &nbsp; <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/igorrds113/">LinkedIn</a>
 </small>
 </footer>
