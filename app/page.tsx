@@ -61,7 +61,7 @@ export default function Home() {
 <div className="sep">
 </div>
 <div className="stat">
-<span className="num">React · Next.js</span>
+<span className="num">React · TS · Next.js</span>
 <span className="label">Frontend</span>
 </div>
 </div>
@@ -91,32 +91,22 @@ export default function Home() {
 <span className="c-slate">01</span>&nbsp; <span className="c-purp">const</span> <span className="c-blue">developer</span> <span className="c-white">= {"{"}</span>
 </div>
 <div>
-<span className="c-slate">02</span>&nbsp;&nbsp;&nbsp; <span className="c-white">name:</span> <span className="c-green">&apos;Igor Ribeiro&apos;</span>
-<span className="c-white">,</span>
+<span className="c-slate">02</span>&nbsp;&nbsp;&nbsp; <span className="c-white">name:</span> <span className="c-green">&apos;Igor Ribeiro&apos;</span><span className="c-white">,</span>
 </div>
 <div>
-<span className="c-slate">03</span>&nbsp;&nbsp;&nbsp; <span className="c-white">role:</span> <span className="c-green">&apos;Full Stack&apos;</span>
-<span className="c-white">,</span>
+<span className="c-slate">03</span>&nbsp;&nbsp;&nbsp; <span className="c-white">role:</span> <span className="c-green">&apos;Full Stack&apos;</span><span className="c-white">,</span>
 </div>
 <div>
-<span className="c-slate">04</span>&nbsp;&nbsp;&nbsp; <span className="c-white">areas:</span> <span className="c-white">[</span>
-<span className="c-green">&apos;Frontend&apos;</span>
-<span className="c-white">,</span>
+<span className="c-slate">04</span>&nbsp;&nbsp;&nbsp; <span className="c-white">frontend:</span> <span className="c-white">[</span><span className="c-green">&apos;React&apos;</span><span className="c-white">,</span> <span className="c-green">&apos;TypeScript&apos;</span><span className="c-white">,</span>
 </div>
 <div>
-<span className="c-slate">05</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span className="c-green">&apos;Backend&apos;</span>
-<span className="c-white">,</span> <span className="c-green">&apos;Web Apps&apos;</span>
-<span className="c-white">],</span>
+<span className="c-slate">05</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span className="c-green">&apos;Next.js&apos;</span><span className="c-white">],</span>
 </div>
 <div>
-<span className="c-slate">06</span>&nbsp;&nbsp;&nbsp; <span className="c-white">stack:</span> <span className="c-white">[</span>
-<span className="c-green">&apos;React&apos;</span>
-<span className="c-white">,</span> <span className="c-green">&apos;Node.js&apos;</span>
-<span className="c-white">],</span>
+<span className="c-slate">06</span>&nbsp;&nbsp;&nbsp; <span className="c-white">backend:</span> <span className="c-white">[</span><span className="c-green">&apos;Node.js&apos;</span><span className="c-white">,</span> <span className="c-green">&apos;Go&apos;</span><span className="c-white">],</span>
 </div>
 <div>
-<span className="c-slate">07</span>&nbsp;&nbsp;&nbsp; <span className="c-blue">build</span>
-<span className="c-white">:</span> <span className="c-yellow">&apos;with purpose&apos;</span>
+<span className="c-slate">07</span>&nbsp;&nbsp;&nbsp; <span className="c-blue">build</span><span className="c-white">:</span> <span className="c-yellow">&apos;with purpose&apos;</span>
 </div>
 <div>
 <span className="c-slate">08</span>&nbsp; <span className="c-white">{"}"};</span>
