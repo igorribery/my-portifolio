@@ -1,8 +1,11 @@
 import { PortfolioMotion } from '@/componentes/portfolio-motion';
 import { GarimpexFeature } from '@/componentes/garimpex-feature';
+import { contato } from '@/dados/portfolio';
 
 /** Portfolio Dark Premium — implementation of the approved visual prototype. */
 export default function Home() {
+  const whatsappUrl = `https://wa.me/55${contato.telefone.replace(/\D/g, '')}?text=${encodeURIComponent('Olá! Vi seu portfólio e gostaria de conversar sobre uma oportunidade profissional.')}`;
+
   return (
     <>
       <a href="#projetos" className="skip-link">Ir para os projetos</a>
@@ -22,7 +25,7 @@ export default function Home() {
 <a href="#stack">Stack</a>
 <a href="#contato">Contato</a>
 </nav>
-<a className="top-contact" href="mailto:igorrds1998@gmail.com">Vamos conversar ↗</a>
+<a className="top-contact" href={whatsappUrl} target="_blank" rel="noopener noreferrer">Vamos conversar ↗</a>
 </header>
 <section className="hero" id="inicio">
 <div className="gridbg">
@@ -358,7 +361,10 @@ export default function Home() {
 <em>juntos?</em>
 </h2>
 <p>Aberto a oportunidades como Desenvolvedor Full Stack em empresas, em regime CLT ou PJ, além de projetos freelance e parcerias.</p>
-<a className="btn btn-primary" href="mailto:igorrds1998@gmail.com">Conversar sobre oportunidades ↗</a>
+<div className="footer-actions">
+<a className="btn btn-primary" href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="Conversar sobre oportunidades pelo WhatsApp">Conversar sobre oportunidades ↗</a>
+<a className="btn btn-plain" href={`mailto:${contato.email}`}>Enviar e-mail ↗</a>
+</div>
 <small>© 2026 Igor Ribeiro &nbsp; · &nbsp; <a target="_blank" rel="noopener noreferrer" href="https://github.com/igorribery">GitHub</a> &nbsp; · &nbsp; <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/igorrds113/">LinkedIn</a>
 </small>
 </footer>

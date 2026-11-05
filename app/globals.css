@@ -59,3 +59,7 @@ html{scroll-padding-top:25px}
 @media(max-width:1050px){.gpx-grid{grid-template-columns:1fr 1fr}.gpx-copy{padding:34px 18px 32px 30px}.gpx-visual-real{padding:20px 20px 16px 0;min-height:365px}.gpx-real-top{font-size:8px}.gpx-real-live{font-size:8px}}
 @media(max-width:760px){.gpx-grid{grid-template-columns:1fr;min-height:0}.gpx-copy{padding:27px 23px 23px}.gpx-visual-real{min-height:0;padding:8px 17px 40px;overflow:visible}.gpx-visual-real>.gpx-real-browser{transform:none!important}.gpx-visual-real .gpx-float{bottom:17px;right:10px}.gpx-real-top{height:30px;padding:0 10px;font-size:8px}.gpx-real-live{font-size:7px}.gpx-gallery-intro{display:grid;gap:7px;margin:0 17px;padding:16px 0 12px}.gpx-real-gallery{grid-template-columns:1fr;gap:25px;margin:0 17px 22px}.gpx-real-thumb figcaption{font-size:11px}}
 @media(prefers-reduced-motion:reduce){.gpx-visual-real>.gpx-real-browser{transform:none!important;transition:none!important}}
+
+/* Contact actions: WhatsApp primary, e-mail alternative. */
+.footer-actions{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px;margin-top:25px}
+.footer .footer-actions .btn{margin-top:0}
